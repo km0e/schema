@@ -1,0 +1,44 @@
+name = "default"
+
+[schemas.fish.linux.paths]
+default = ["~/.config/fish"]
+
+[schemas.alacritty.windows.paths]
+default = ["${APPDATA}/alacritty/alacritty.toml"]
+
+[schemas.alacritty.unix.paths]
+default = [
+  "${XDG_CONFIG_HOME}/alacritty/alacritty.toml",
+  "${XDG_CONFIG_HOME}/alacritty.toml",
+  "~/.config/alacritty/alacritty.toml",
+  "~/.alacritty.toml",
+]
+
+[schemas.fcitx5.linux.paths]
+data = ["~/.local/share/fcitx5"]
+default = ["~/.config/fcitx5"]
+
+[schemas.git.unknown.paths]
+default = ["~/.gitconfig"]
+
+[schemas.nvim.unix.paths]
+default = ["${XDG_CONFIG_HOME}/nvim", "~/.config/nvim"]
+
+[schemas.nvim.windows.paths]
+default = ["${XDG_CONFIG_HOME}/nvim", "~/AppData/Local/nvim"]
+
+[schemas.yakuake.linux.paths]
+default = ["~/.config/yakuakerc"]
+
+[schemas.zellij.linux.paths]
+default = ["${ZELLIJ_CONFIG_DIR}", "~/.config/zellij"]
+
+[schemas.acme.linux.paths]
+default = ["~/.acme.sh"]
+
+[schemas.konsole.manjaro.paths]
+default = ["~/.config/konsolerc"]
+data = ["~/.local/share/konsole"]
+
+[schemas.oli.linux.paths]
+default = ["~/.config/oli"]

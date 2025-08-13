@@ -14,10 +14,6 @@ default = [
   "~/.alacritty.toml",
 ]
 
-[schema.fcitx5.linux.paths]
-data = ["~/.local/share/fcitx5"]
-default = ["~/.config/fcitx5"]
-
 [schema.git.unknown.paths]
 default = ["~/.gitconfig"]
 
